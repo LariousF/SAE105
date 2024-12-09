@@ -16,5 +16,25 @@
 .header_top_left {
     display: flex;
     gap: 2rem;
+    padding-bottom: 2rem;
 } 
 
+header div p {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+#img_logo {
+    width: 25%;
+    height: 13%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+#contact {
+    display: flex;
+    gap: 2rem;
+    padding-bottom: 2rem;
+}
