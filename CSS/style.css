@@ -7,3 +7,18 @@ div p {
     display: inline-block;
     
 }
+
+#text {
+    text-align: center;
+    padding-left: 5px;
+}
+
+#menu {
+    display: flex;
+    gap: 25em;
+    padding-left: 17.5em;
+}
+
+#menu p {
+    font-size: 1.7em;
+}

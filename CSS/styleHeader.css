@@ -13,11 +13,16 @@
 }
 
 
-.header_top_left {
+.header_top_left { 
     display: flex;
-    gap: 2rem;
-    padding-bottom: 2rem;
+    gap: 2em;
+    padding-bottom: 10px;
 } 
+
+.header_top_left p {
+    padding-top: 15px;
+}
+
 
 header div p {
     padding-right: 15px;
@@ -25,16 +30,12 @@ header div p {
 }
 
 #img_logo {
-    width: 25%;
-    height: 13%;
+    width: 18em;
+    height: auto;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 24em;
+    margin-right: 28em;
     margin-top: 10px;
+    
 }
 
-#contact {
-    display: flex;
-    gap: 2rem;
-    padding-bottom: 2rem;
-}
