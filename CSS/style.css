@@ -1,6 +1,6 @@
 .img_grece {
     width: 100%;
-    height: auto; /* Remplacement de height: 60% pour conserver le ratio de l'image */
+    height: auto; 
 }
 
 div p {
@@ -23,19 +23,19 @@ div p {
 }
 
 #img_container {
-    position: relative; /* Conteneur relatif pour le positionnement absolu du texte */
+    position: relative; 
     text-align: center;
-    overflow: hidden; /* Assure que le contenu reste dans le conteneur */
+    overflow: hidden; 
 }
 
 #img_container .text-overlay {
-    position: absolute; /* Positionnement absolu pour superposer le texte */
-    top: 50%; /* Centrage vertical */
-    left: 50%; /* Centrage horizontal */
-    transform: translate(-50%, -50%); /* Ajustement précis pour centrer */
-    color: white; /* Couleur blanche pour le texte */
-    font-size: 2em; /* Taille du texte */
-    font-weight: bold; /* Texte en gras */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Ombre pour contraste */
-    white-space: nowrap; /* Empêche le texte de se couper sur plusieurs lignes */
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: white;
+    font-size: 2em; 
+    font-weight: bold; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+    white-space: nowrap; 
 }
