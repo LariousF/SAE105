@@ -5,10 +5,16 @@
 }
 
 body {
-    background-color: #161616;
-    color: #fff;
     font-family: "Georgia", serif;
     line-height: 1.6;
+    color: #ffffff;
+}
+
+.destination {
+    background-color: #161616;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .japon {

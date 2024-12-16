@@ -1,25 +1,6 @@
 .img_grece {
     width: 100%;
-    height: auto; 
-}
-
-div p {
-    display: inline-block;
-}
-
-#text {
-    text-align: center;
-    padding-left: 5px;
-}
-
-#menu {
-    display: flex;
-    gap: 25em;
-    padding-left: 17.5em;
-}
-
-#menu p {
-    font-size: 1.7em;
+    height: 50em; 
 }
 
 #img_container {
@@ -35,7 +16,43 @@ div p {
     transform: translate(-50%, -50%); 
     color: white;
     font-size: 2em; 
-    font-weight: bold; 
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
     white-space: nowrap; 
+}
+
+#img_container .text-overlay p {
+    padding-top: 0em;
+    padding-bottom: 1.5em;
+}
+
+#img_container .text-overlay h1 {
+    font-size: 4.5em;
+}
+
+#img_container .text-overlay h2 {
+    padding-bottom: 3.5em;
+    font-weight: normal;
+}
+
+#img_container .text-overlay h4 {
+    font-weight: lighter; 
+    background-color: white;
+    margin-right: 175px;
+    margin-left: 175px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-shadow: none;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+#img_container .text-overlay h4:hover {
+    background-color: lightgrey;
+    text-shadow: none;
+}
+
+#img_container .text-overlay h4 a {
+    text-decoration: none;
+    color: inherit;
 }

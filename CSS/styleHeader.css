@@ -9,7 +9,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
 }
 
 
@@ -20,7 +19,8 @@
 } 
 
 .header_top_left p {
-    padding-top: 15px;
+    padding-top: 1em;
+    color: black;
 }
 
 
@@ -36,6 +36,39 @@ header div p {
     margin-left: 24em;
     margin-right: 28em;
     margin-top: 10px;
-    
 }
 
+div p {
+    display: inline-block;
+}
+
+#text {
+    text-align: center;
+    padding-left: 5px;
+}
+
+#menu {
+    display: flex;
+    gap: 25em;
+    padding-left: 7.5em;
+    padding-top: 3em;
+    padding-bottom: 1em;
+}
+
+#menu p {
+    font-size: 1.7em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#menu p a {
+    text-decoration: none;
+    color: black;
+}
+
+#menu p:hover {
+    background-color: lightgrey;
+    text-shadow: none;
+}

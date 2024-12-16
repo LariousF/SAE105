@@ -33,7 +33,7 @@ body {
 
 .box {
     width: 45%;
-    background: rgba(255, 255, 255, 0.39);
+    background: rgba(255, 255, 255, 0.61);
     backdrop-filter: blur(10px);
     padding: 20px;
     border-radius: 10px;
@@ -43,13 +43,13 @@ body {
 
 .box h2 {
     margin-bottom: 15px;
-    font-size: 2rem;
+    font-size: 1.6em;
     color: #000;
 }
 
 .box p {
     line-height: 1.6;
-    font-size: 1rem;
+    font-size: 0.8em;
 }
 
 .videocont {
