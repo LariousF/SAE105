@@ -18,6 +18,12 @@
     padding-bottom: 10px;
 } 
 
+.header_top_left a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 20px;
+}
+
 .header_top_left p {
     padding-top: 1em;
     color: black;
